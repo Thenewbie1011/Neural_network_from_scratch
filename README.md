@@ -51,8 +51,6 @@ git clone https://github.com/Thenewbie1011/Neural_network_from_scratch.git
 cd Neural_network_from_scratch
 ```
 ### 3. Install the required dependencies
-## Notes
-Further validation is ongoing on different datasets to understand the limitations of my code and the goal is to optimize my code further in order to fit a variety of datasets. Furthermore, this project was undertaken solely for educational purposes, to understand how exactly a neural network works. 
 ```bash
 pip install -r requirements.txt
 ```
@@ -60,3 +58,5 @@ pip install -r requirements.txt
 ```bash
 python training.py
 ```
+## Notes
+Further validation is ongoing on different datasets to understand the limitations of my code and the goal is to optimize my code further in order to fit a variety of datasets. Furthermore, this project was undertaken solely for educational purposes, to understand how exactly a neural network works. 
