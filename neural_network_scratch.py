@@ -120,5 +120,5 @@ class NeuralNetworks:
         #Performs forward propagation, used strictly in predictions
         probabilities=self.forward(X)
         #Converts the probabilities into predictions based on the threshold. Default is 0.5
-        predictions=(probabilities>=0.5).astype("int")
+        predictions=(probabilities>=threshold).astype("int")
         return predictions
